@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <rockertouchview.simon.com.cn.myapplication.RockerTouchView
+        android:id="@+id/rocker_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#33000000"
+        app:default_rocker_point_background="@drawable/qqq"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".5"
+        app:out_circle_background="@drawable/rocker_bg"
+        app:rocker_point_background="@drawable/rocker_point"
+        app:roock_touch_mode="true" />
+
+    <rockertouchview.simon.com.cn.myapplication.RockerTouchView
+        android:id="@+id/rocker_view_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#33000000"
+        app:default_rocker_point_background="@drawable/qqq"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/rocker_view"
+        app:layout_constraintTop_toTopOf="@+id/rocker_view"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintWidth_percent=".5"
+        app:out_circle_background="@drawable/rocker_bg"
+        app:rocker_point_background="@drawable/rocker_point"
+        app:roock_touch_mode="true" />
+</android.support.constraint.ConstraintLayout>

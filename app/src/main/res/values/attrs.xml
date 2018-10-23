@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="RockerTouchView">
+        <attr name="all_direction_mode" format="boolean" /><!--方向模式,true 八方向-->
+        <attr name="roock_touch_mode" format="boolean" /><!--触摸模式,true边框箭头-->
+        <attr name="out_circle_background" format="color|reference" /><!--外圆背景-->
+        <attr name="rocker_point_background" format="color|reference" /><!--摇杆点图标-->
+        <attr name="default_rocker_point_background" format="color|reference" /><!--未触摸默认中心原点图标-->
+    </declare-styleable>
+
+
+</resources>
